@@ -1,0 +1,138 @@
+/* Overall Page Background */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #f5a623, #f76c6c, #9b59b6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Dashboard Container */
+  .dashboard-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 500px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Hover effect for container */
+  .dashboard-container:hover {
+    transform: scale(1.02);
+  }
+  
+  /* Title Styling */
+  .dashboard-container h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Input and Button container styling */
+  .search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Search Input */
+  .search-container input {
+    padding: 12px;
+    width: 70%;
+    max-width: 300px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .search-container input:focus {
+    border-color: #f76c6c;
+    box-shadow: 0 0 5px rgba(255, 105, 180, 0.7);
+  }
+  
+  /* Search Button */
+  .search-container button {
+    padding: 12px 20px;
+    background-color: #f76c6c;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .search-container button:hover {
+    background-color: #f5a623;
+  }
+  
+  /* Weather Card Styling */
+  .weather-card {
+    background: #ffffff;
+    padding: 20px; /* Reduced padding */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px auto 0; /* Centered and a little spacing from search */
+    width: 90%; /* Reduced width */
+    max-width: 350px; /* Shrunk from 450px */
+    transition: transform 0.3s ease;
+    border: 1px solid #ddd;
+  }
+  
+  .weather-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .weather-card h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  
+  .weather-card p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+  
+  .weather-card .temperature {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f76c6c;
+  }
+  
+  .weather-card .humidity,
+  .weather-card .wind-speed {
+    font-size: 1.1rem;
+    color: #777;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .search-container {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .search-container input,
+    .search-container button {
+      width: 100%;
+      max-width: none;
+    }
+  }
+  
