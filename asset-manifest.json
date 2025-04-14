@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Karthika0407/Task1.git/static/css/main.d65b3726.css",
+    "main.js": "/Karthika0407/Task1.git/static/js/main.272ee8d5.js",
+    "static/js/453.0ccb7fb4.chunk.js": "/Karthika0407/Task1.git/static/js/453.0ccb7fb4.chunk.js",
+    "index.html": "/Karthika0407/Task1.git/index.html",
+    "main.d65b3726.css.map": "/Karthika0407/Task1.git/static/css/main.d65b3726.css.map",
+    "main.272ee8d5.js.map": "/Karthika0407/Task1.git/static/js/main.272ee8d5.js.map",
+    "453.0ccb7fb4.chunk.js.map": "/Karthika0407/Task1.git/static/js/453.0ccb7fb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d65b3726.css",
+    "static/js/main.272ee8d5.js"
+  ]
+}
