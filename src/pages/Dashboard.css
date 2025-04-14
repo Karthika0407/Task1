@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #f5a623, #f76c6c, #9b59b6);
+    background: linear-gradient(135deg, #60f1fb, #adb718, #5cee76);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -59,14 +59,14 @@ body {
   }
   
   .search-container input:focus {
-    border-color: #f76c6c;
-    box-shadow: 0 0 5px rgba(255, 105, 180, 0.7);
+    border-color: #ef04a5;
+    box-shadow: 0 0 5px rgba(236, 25, 131, 0.7);
   }
   
   /* Search Button */
   .search-container button {
     padding: 12px 20px;
-    background-color: #f76c6c;
+    background-color: #2d0fd7;
     color: white;
     font-size: 1.1rem;
     border: none;
@@ -76,7 +76,7 @@ body {
   }
   
   .search-container button:hover {
-    background-color: #f5a623;
+    background-color: #98ba12;
   }
   
   /* Weather Card Styling */
@@ -113,7 +113,7 @@ body {
   .weather-card .temperature {
     font-size: 2.5rem;
     font-weight: bold;
-    color: #f76c6c;
+    color: #e935e0;
   }
   
   .weather-card .humidity,
